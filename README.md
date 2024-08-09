@@ -76,5 +76,18 @@ Add the following at the end of the `.bashrc` file :
 ```
 eval "$(starship init bash)"
 ```
+     
+Everything is done! Restart the terminal and you should see it in a new look. Your `Shell` will load the default Starship prompt, if you are not happy with the look then proceed on with the next step.
+  
+### STEP 03 : Configuring the Startship Prompt
+
+Configurations for Starship are done in a `starship.toml` file located in `.config` folder in the user's home directry. We need to create them first by running the following commands :
+
+> Note : use `Git Bash` to run this command.
+```
+mkdir -p ~/.config && touch ~/.config/starship.toml
+```
+
+Now we can start configuring by adding content to the `starship.toml` file. To learn about this in detail, check the [**Documentation**](https://starship.rs/config/#prompt). Now, manually configuring the prompt is a bit tedious. So, we are going to use some [**Presets**](https://starship.rs/presets/#nerd-font-symbols). Choose any preset that you like and copy its `toml` into `starship.toml`, that we created earlier, save it and the configurations will be applied. 
     
-Everything is done! Restart the terminal and you should see your beautiful new shell prompt.
+To get the same prompt as shown in this [**image**](Images/terminal-after-customization.png), copy [**this**](Themes/Starship/starship.toml) into your `starship.toml` file.
