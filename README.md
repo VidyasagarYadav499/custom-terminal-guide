@@ -1,4 +1,4 @@
-# Custom Terminal 🖥️ Guide 📜
+# Custom Terminal 🖥️ Guide 📋
     
 ## Introduction
      
