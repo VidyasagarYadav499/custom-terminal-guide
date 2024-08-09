@@ -11,17 +11,17 @@ Into something that looks like this 👇.
     
 ![alt text](Images/terminal-after-customization.png)
      
-## Installation 
+## Installation
       
 ### Prerequisites
      
 [**Nerd Fonts**](https://www.nerdfonts.com/) : You can download these fonts from [**here**](https://www.nerdfonts.com/font-downloads). I use the [J**etBrains Mono Nerd Font**](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip) for my terminal.
     
-### STEP 01 : Install Starship
+### STEP 01 : Install Starship 🚀
        
 [**Starship**](https://starship.rs/) is a highly customizable, cross-shell prompt. It works with popular shells like Bash, Zsh, Fish, PowerShell, and others. It will help us in changing the looks of our terminal.
    
-### Windows 
+#### **Windows** 
    
 Starship can be installed via `winget`, windows package manager, by running the following command in the `Command Prompt`. It will not work if you do not have `winget` installed already :
     
@@ -35,7 +35,7 @@ If the above command does not work then we have to download the MSI-installers f
 > starship-x86_64-pc-windows-msvc.msi 
 >
 
-### Linux 
+#### **Linux**
    
 To install Starship, run the following command in your terminal :
      
@@ -46,7 +46,7 @@ curl -sS https://starship.rs/install.sh | sh
     
 We can configure our `Shells` to run the Starship prompt everytime we start a new terminal session.
       
-#### PowerShell
+#### **PowerShell**
 
 Open `PowerShell` and run the following command :
    
@@ -60,7 +60,7 @@ Add the following at the end of the file that was opened by the above command. S
 Invoke-Expression (&starship init powershell)
 ```
 
-#### Bash
+#### **Bash**
    
 Either you can configure `Bash`, if you are on a Linux system, or you can configure `Git Bash` on a Windows system. The methods for both are exactly the same.
 
