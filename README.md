@@ -41,6 +41,8 @@ If the above command does not work then we have to download the MSI-installers f
 > starship-x86_64-pc-windows-msvc.msi 
 >
 
+After downloading is complete, install it like any other program by running the installer.
+
 #### **Linux OS**
    
 To install Starship, run the following command in your terminal :
