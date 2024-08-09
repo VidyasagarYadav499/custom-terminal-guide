@@ -2,7 +2,9 @@
     
 ## Introduction
      
-This repository is mainly intended to be used as a safehouse (for now) for my terminal customizations and settings.<br> 
+> Note : This repository is mainly intended to be used as a safehouse (for now) for my terminal customizations and settings.<br> 
+    
+        
 If you follow the instructions laid down here, you can change your terminal, that may look like this 👇.
      
 ![alt text](Images/terminal-before-customization.png)
