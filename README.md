@@ -27,7 +27,7 @@ Or this 👇
        
 [**Starship**](https://starship.rs/) is a highly customizable, cross-shell prompt. It works with popular shells like Bash, Zsh, Fish, PowerShell, and others. It will help us in changing the looks of our terminal.
    
-#### **Windows** 
+#### **Windows OS** 
    
 Starship can be installed via `winget`, windows package manager, by running the following command in the `Command Prompt`. It will not work if you do not have `winget` installed already :
     
@@ -35,13 +35,13 @@ Starship can be installed via `winget`, windows package manager, by running the 
 winget install --id Starship.Starship
 ```
    
-If the above command does not work then we have to download the MSI-installers from the [**release section**](https://github.com/starship/starship/releases/tag/v1.20.1) of Starship's Github repository. Make sure to download the correct installer based on your CPU's Instruction Set Architecture (ISA), if you have a `x86_64` system download the installer that may look like this 👇.
+If the above command does not work then we have to download the MSI-installers from the [**release section**](https://github.com/starship/starship/releases/tag/v1.20.1) of Starship's Github repository. Make sure to download the correct installer based on your CPU's Instruction Set Architecture (ISA), if you have a `x86_64` system with Windows OS, download the installer that may look like this 👇
      
 >
 > starship-x86_64-pc-windows-msvc.msi 
 >
 
-#### **Linux**
+#### **Linux OS**
    
 To install Starship, run the following command in your terminal :
      
@@ -75,7 +75,7 @@ To configure `Bash` we have to make changes to the `.bashrc` file. To achieve th
 ```
 cd ~ && nano .bashrc
 ```
-The comand above checks for the `.bashrc` file in the `/usr/home/` directry (user's home directry) and opens it via `nano` (text editor that runs in the terminal). If the `.bashrc` file does not exist in the user's home directry `nano` creates it first and then opens it.
+The comand above checks for the `.bashrc` file in the `/usr/home/` directory (user's home directry) and opens it via `nano` (text editor that runs in the terminal). If the `.bashrc` file does not exist in the user's home directory `nano` creates it first and then opens it.
 
 Add the following at the end of the `.bashrc` file :
 
@@ -87,7 +87,7 @@ Everything is done! Restart the terminal and you should see it in a new look. Yo
   
 ### STEP 03 : Configuring the Startship Prompt
 
-Configurations for Starship are done in a `starship.toml` file located in `.config` folder in the user's home directry. We need to create them first by running the following commands :
+Configurations for Starship are done in a `starship.toml` file located in `.config` folder in the user's home directory. We need to create them first by running the following commands :
 
 > Note : use `Git Bash` to run this command.
 ```
