@@ -105,6 +105,6 @@ Run the following command to create the folder 📂 and the file :
 mkdir -p ~/.config && touch ~/.config/starship.toml
 ```
 
-Now we can start configuring by adding content to the `starship.toml` file. To learn about this in detail, check the [**Documentation**](https://starship.rs/config/#prompt). Now, manually configuring the prompt is a bit tedious. So, we are going to use some [**Presets**](https://starship.rs/presets/#nerd-font-symbols). Choose any preset that you like and copy its `toml` into `starship.toml`, that we created earlier, save it and the configurations will be applied. 
+Now we can start configuring by adding content to the `starship.toml` file. To learn about this in detail, check the [**Documentation**](https://starship.rs/config/#prompt). Now, manually configuring the prompt is a bit tedious. So, we are going to use some [**Presets**](https://starship.rs/presets). Choose any preset that you like and copy its `toml` into `starship.toml`, that we created earlier, save it and the configurations will be applied. 
     
 To get the same prompt as shown in this [**image**](Images/terminal-after-customization.png), copy [**this**](Themes/Starship/starship.toml) into your `starship.toml` file.
