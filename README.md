@@ -89,7 +89,14 @@ Everything is done! Restart the terminal and you should see it in a new look. Yo
   
 ### STEP 03 : Configuring the Startship Prompt
 
-Configurations for Starship are done in a `starship.toml` file located in `.config` folder in the user's home directory. We need to create them first by running the following commands :
+Configurations for Starship are done in a `starship.toml` file located in `.config` folder in the user's home 🏠 directory. We need to create them first.
+
+#### **Windows OS**
+
+Go to your home directory, located here : `C:\Users\<YourUsername>`.
+Then create `.config` folder 📂 and a `starship.toml` file in it.
+
+#### **Linux OS**
 
 > Note : use `Git Bash` or `Bash` to run this command.
 ```
