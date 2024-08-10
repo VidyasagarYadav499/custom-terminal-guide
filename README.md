@@ -98,7 +98,9 @@ Then create `.config` folder 📂 and a `starship.toml` file in it.
 
 #### **Linux OS**
 
-> Note : use `Git Bash` or `Bash` to run this command.
+> Note : If you have `Git Bash` installed on your Windows OS then running the Linux command given below will create the required folder and the file.
+
+Run the following command to create the folder 📂 and the file :
 ```
 mkdir -p ~/.config && touch ~/.config/starship.toml
 ```
