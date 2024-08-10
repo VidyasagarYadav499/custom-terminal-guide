@@ -91,7 +91,7 @@ Everything is done! Restart the terminal and you should see it in a new look. Yo
 
 Configurations for Starship are done in a `starship.toml` file located in `.config` folder in the user's home directory. We need to create them first by running the following commands :
 
-> Note : use `Git Bash` to run this command.
+> Note : use `Git Bash` or `Bash` to run this command.
 ```
 mkdir -p ~/.config && touch ~/.config/starship.toml
 ```
