@@ -2,7 +2,7 @@
     
 ## Introduction
      
-> Note : This repository is mainly intended to be used as a **safehouse** (for now) for my terminal customizations and settings.<br> 
+> **Note :** This repository is mainly intended to be used as a **safehouse** (for now) for my terminal customizations and settings.<br> 
     
         
 If you follow the instructions laid down here, you can change your terminal, that may look like this 👇
@@ -98,7 +98,7 @@ Then create `.config` folder 📂 and a `starship.toml` file in it.
 
 #### **Linux OS**
 
-> Note : If you have `Git Bash` installed on your Windows OS then running the Linux command given below will create the required folder and the file.
+> **Note :** If you have `Git Bash` installed on your Windows OS then running the Linux command given below will create the required folder and the file.
 
 Run the following command to create the folder 📂 and the file :
 ```
