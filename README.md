@@ -21,7 +21,7 @@ Or this 👇
       
 ### Prerequisites
      
-[**Nerd Fonts**](https://www.nerdfonts.com/) : You can download these fonts from [**here**](https://www.nerdfonts.com/font-downloads). I use the [**JetBrains Mono Nerd Font**](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip) for my terminal.
+[**Nerd Fonts**](https://www.nerdfonts.com/) : You can download these fonts from [**here**](https://www.nerdfonts.com/font-downloads). Install them after downloading and set your terminal to use them in the settings. I use the [**JetBrains Mono Nerd Font**](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip) for my terminal.
     
 ### STEP 01 : Install Starship 🚀
        
