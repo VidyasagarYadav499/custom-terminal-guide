@@ -67,6 +67,10 @@ Add the following at the end of the file that was opened by the above command. S
 ```
 Invoke-Expression (&starship init powershell)
 ```
+> **Note :** PowerShell might not run our profile script, If this happens we need to change the Execution Policy by running this command:
+> ```
+> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
 
 #### **Bash**
    
