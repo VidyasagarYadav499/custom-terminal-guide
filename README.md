@@ -61,6 +61,7 @@ Open `PowerShell` and run the following command :
 ```
 notepad $PROFILE
 ```
+>**Note :** In case the `notepad $PROFILE` command shows error when run, then we need to manually create the powershell PROFILE script. To create that, go to this path : `C:\Users\<YourUsername>\Documents\PowerShell\` and create a new file with the following name : `Microsoft.PowerShell_profile.ps1`
 
 Add the following at the end of the file that was opened by the above command. Save and then close the file :
 
